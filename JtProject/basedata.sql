@@ -5,7 +5,6 @@ SET SQL_MODE ='IGNORE_SPACE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 CREATE DATABASE IF NOT EXISTS ecommjava;
 USE ecommjava;
 
-# create the category table
 CREATE TABLE IF NOT EXISTS CATEGORY(
 category_id int unique key not null auto_increment primary key,
 name        varchar(255) null
